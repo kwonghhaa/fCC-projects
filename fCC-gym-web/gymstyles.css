@@ -1,0 +1,104 @@
+h1,
+h2,
+p {
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif, Cambria;
+  padding: 20px;
+  background-image: url(gymwebpic.jpg);
+  background-size: contain;
+  background-repeat: repeat;
+}
+
+.routine {
+  width: 80%;
+  max-width: 600px;
+  background-color: lightblue;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 150px;
+}
+
+hr {
+  height: 2px;
+  background-color: black;
+  border-color: white;
+  border-width: 1px;
+}
+
+.bottom-line {
+  margin-top: 25px;
+}
+
+.established {
+  font-style: italic;
+}
+
+h1,
+h2 {
+  font-family: Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.workout p {
+  display: inline-block;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.gluteexercises,
+.backexercises {
+  text-align: left;
+  width: 59%;
+}
+
+.sets {
+  text-align: right;
+  width: 40%;
+}
+
+/* FOOTER */
+
+footer {
+  font-size: 12px;
+}
+
+.address {
+  margin-bottom: 5px;
+}
+
+a {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: black;
+}
