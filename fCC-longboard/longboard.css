@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: fixed;
+  top: -9px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+#header-img {
+  width: 90px;
+  height: 100%;
+  margin: 0 0 0 20px;
+}
+
+#nav-bar {
+  width: 50%;
+  height: 100%;
+}
+
+#nav-bar ul {
+  font-size: 1.7rem;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: rgb(130, 179, 201);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+  background-color: rgb(130, 179, 201);
+}
+
+.nav-link:active {
+  color: rgb(130, 179, 201);
+  background-color: white;
+}
+
+/* body {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 0;
+} */
+
+
+/* main {
+  width: 80vw;
+  margin: 0 auto;
+  padding: 30px 0;
+  display: block;
+  background-color: rgb(211, 241, 255);
+} */
+
+main {
+  width: 80vw;
+  background-color: rgb(211, 241, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 80px 0;
+  margin: 10px auto;
+}
+
+div {
+  margin: 0 auto;
+  padding: 10px 25px;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-align: left;
+  padding: 20px 30px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin: 0 auto 20px;
+}
+
+#About {
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+#About li {
+  font-size: 1.4rem;
+  margin: 10px auto;
+}
+
+#video {
+  width: 60vw;
+  display: block;
+}
+
+#h2_Offer {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+#Offer {
+  width: 80vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffffff;
+  margin: 10px 5px;
+}
+
+
+.lesson {
+  background-color: rgb(170, 195, 207);
+  color: #ffffff;
+  width: 100%;
+  padding: 5px 1px;
+  margin: 0 auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.lesson-container {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  border: 1px solid rgb(63, 116, 141);
+}
+
+.total {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.price {
+  font-size: 1.2rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+
+.hour {
+  font-size: 1.4rem;
+}
+
+button {
+  background-color: rgb(170, 195, 207);
+  color: white;
+  border: none;
+  padding: 5px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(47, 89, 108);
+  color: #ffffff;
+}
+
+button:active {
+  background-color: rgb(170, 195, 207);
+  color: #ffffff;
+}
+
+#t_and_c p {
+  font-size: 1rem;
+  margin: 0 0 0 80px;
+}
+
+#form_and_email {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px 10px;
+}
+
+#form {
+  display: block;
+  text-align: center;
+}
+
+#email {
+  margin: 0 0 40px 0;
+}
+
+.q {
+  font-weight: 500;
+}
+
+#email {
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(170, 195, 207);
+  border-radius: 7px;
+  padding: 5px 15px;
+  margin: 0 8px 0 0;
+  color: white;
+}
+
+#email::placeholder {
+  color: #ffffff;
+  font-weight: 100;
+}
+
+#submit {
+  border: 1px solid rgb(135, 183, 206);
+  background-color: rgb(170, 195, 207);
+  border-radius: 7px;
+  padding: 5px 12px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(47, 89, 108);
+  color: #ffffff;
+}
+
+#submit:active {
+  background-color: rgb(170, 195, 207);
+  color: #ffffff;
+}
+
+footer {
+  width: 80vw;
+  margin: 10px auto;
+  padding: 0 10px;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  #Offer {
+    grid-template-columns: 1fr;
+  }
+}
