@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="techdoc.css">
+  <title>SQL and Power BI</title>
+</head>
+
+<body>
+  <div id="bg">
+    <nav id="navbar">
+      <header>Introduction to SQL and Power BI</header>
+      <ul>
+        <li><a class="nav-link" href="#Introduction_to_SQL_and_Power_BI">Introduction to SQL and Power BI</a></li>
+        <li><a class="nav-link" href="#SQL_and_its_Commands">SQL and its Commands</a></li>
+        <li><a class="nav-link" href="#MySQL">MySQL</a></li>
+        <li><a class="nav-link" href="#Power_BI">Power BI</a></li>
+        <li><a class="nav-link" href="#How_to_connect_your_MySQL_to_Power_BI?">How to connect your MySQL to Power
+            BI?</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section id="Introduction_to_SQL_and_Power_BI" class="main-section">
+        <header>Introduction to SQL and Power BI</header>
+        <h4>SQL</h4>
+        <p><a href="https://en.wikipedia.org/wiki/SQL" target="_blank"><b>Structured Query Language (SQL)</b></a> is a
+          domain-specific language used to manage data, especially in a
+          relational database management system (RDBMS). It is particularly useful in handling structured data, i.e.,
+          data
+          incorporating relations among entities and variables.</p>
+
+        <h4>Power BI</h4>
+        <p><a href="https://en.wikipedia.org/wiki/Microsoft_Power_BI" target="_blank"><b>Microsoft Power BI</b></a> is
+          an
+          interactive data visualization software product developed by Microsoft with a
+          primary focus on business intelligence. It is part of the Microsoft Power Platform.</p>
+      </section>
+
+      <section id="SQL_and_its_Commands" class="main-section">
+        <header>SQL and its Commands</header>
+        <p>SQL is a programming language that you use to retrieve data from the databases. <a
+            href="https://en.wikipedia.org/wiki/SQL_syntax">Query</a> - it allows the user to
+          describe desired data, leaving the database management system (DBMS) to carry out planning, optimizing, and
+          performing the physical operations necessary to produce that result as it chooses.</p>
+        <h4>Here are the important commands in SQL</h4>
+        <p id="commands">
+        <ul>
+          <li>
+            <pre><code>SELECT</code></pre>
+          </li>
+          <li>
+            <pre><code>UPDATE</code></pre>
+          </li>
+          <li>
+            <pre><code>DELETE</code></pre>
+          </li>
+          <li>
+            <pre><code>INSERT INTO</code></pre>
+          </li>
+          <li>
+            <pre><code>CREATE DATABASE</code></pre>
+          </li>
+        </ul>
+        </p>
+      </section>
+
+      <section id="MySQL" class="main-section">
+        <header>MySQL</header>
+        <h4>MySQL Server</h4>
+        <p>MySQL is a relational database organizes data into one or more data tables in which data may be related to
+          each
+          other; these relations help structure the data. SQL is a language that programmers use to create, modify and
+          extract data from the relational database, as well as control user access to the database.</p>
+        <h4>Run SQL in MySQL</h4>
+        <p>
+        <ol>
+          <li>Select the database you want to work on.</li>
+          <li>Type in the SQL commands to retrieve data from the database you selected.</li>
+        </ol>
+        </p>
+      </section>
+
+      <section id="Power_BI" class="main-section">
+        <header>Power BI</header>
+        <h4>Microsoft Power BI</h4>
+        <p>Power BI is a collection of
+          software services, apps, and connectors that work together to turn various sources of data into static and
+          interactive data visualizations.</p>
+        <p>Data may be input by reading directly from a database, webpage, PDF, or
+          structured files such as spreadsheets, CSV, XML, JSON, XLSX, and SharePoint.</p>
+      </section>
+
+      <section id="How_to_connect_your_MySQL_to_Power_BI?" class="main-section">
+        <header>How to connect your MySQL to Power BI?</header>
+        <p>Power BI desktop has a built-in integration with MySQL, it is not difficult to work on.</p>
+        <p>
+        <ol>
+          <li>Download the Power BI from Microsoft.</li>
+          <li>Click on "Get Data" and select a "Database" option then choosr MySQL database.</li>
+          <li>For the new user, create a new user within the database to get the read permissions.</li>
+          <li>Choose the option for DirectQuery or Import.</li>
+          <li>Select the tables you want to import into your data model.</li>
+        </ol>
+        </p>
+      </section>
+      <footer>
+        <h4>Reference</h4>
+        <p>Reference are from different source, please see below links:</p>
+        <ul>
+          <li><a href="https://en.wikipedia.org/wiki/SQL">SQL</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/SQL_syntax">SQL Syntax</a></li>
+          <li><a href="https://en.wikipedia.org/wiki/Microsoft_Power_BI">Microsoft Power BI</a></li>
+        </ul>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>
